@@ -8,6 +8,7 @@ import HomeComponent from "./components/Home"; // Adjust the path if necessary
 import AboutComponent from "./components/AboutUs"; // Adjust the path if necessary
 import LoginComponent from "./components/Login"; // Adjust the path if necessary
 import AccountComponent from "./components/Account"; // Adjust the path if necessary
+import WithdrawalCoins from "./components/WithdrawalCoins";
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
                 />
               </div>
               <div className="coin-container">
-                <p>100000</p>
+              <Link to="/Withdrawl">100000</Link>
               </div>
             </div>
           </div>
@@ -53,6 +54,7 @@ const App = () => {
           <Route path="/about" element={<AboutComponent />} />
           <Route path="/login" element={<LoginComponent />} />
           <Route path="/account" element={<AccountComponent />} />
+          <Route path="/Withdrawl" element={<WithdrawalCoins />} />
         </Routes>
       </div>
     </Router>
