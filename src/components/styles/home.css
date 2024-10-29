@@ -1,0 +1,64 @@
+.home {
+
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow squares to wrap to the next line */
+    justify-content: center;
+    /* Center align the squares */
+    gap: 10px;
+    /* Space between squares */
+    padding: 20px;
+    /* Padding around the container */
+    row-gap: 30px; 
+   
+}
+
+.square {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    /* Hide overflow to maintain square shape */
+    position: relative;
+    /* Position relative for absolute image positioning */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    /* Animation effects */
+    border-radius: 20px;
+}
+
+.square img {
+    width: 100%;
+    /* Make image cover the full width */
+    height: 100%;
+    /* Make image cover the full height */
+    object-fit: cover;
+    /* Ensure image covers the div without stretching */
+    transition: transform 0.3s ease;
+    /* Add transition for image */
+}
+
+.square:hover {
+    transform: scale(1.2);
+    /* Enlarge the square on hover */
+}
+
+.square:hover img {
+    transform: scale(1.2);
+    /* Enlarge the image on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .square {
+        width: 80px;
+        /* Smaller squares for mobile */
+        height: 80px;
+        /* Smaller squares for mobile */
+    }
+
+    .square img {
+        width: 80px;
+        /* Adjust image width */
+        height: 80px;
+        /* Adjust image height */
+    }
+}

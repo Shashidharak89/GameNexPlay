@@ -1,8 +1,9 @@
 /* src/App.css */
+
 .main-header {
-  position: fixed;
-  top: 0;
-  left: 0;
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 0; */
   width: 100vw;
   background-color: #0e0456;
   padding: 1rem 2rem;

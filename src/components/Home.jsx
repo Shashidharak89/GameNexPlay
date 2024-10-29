@@ -1,12 +1,83 @@
 
 // src/components/Home.jsx
 import React from "react";
+import './styles/home.css'
 
 const Home = () => {
   return (
-    <div>
-      <h2>Welcome to GameNexPlay!</h2>
-      <p>Enjoy a variety of games online without needing to install any apps.</p>
+    <div className="home">
+      <div className="square">
+        <img src="https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.EZ63KDuQjhQa287GOXZYbAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.4tknXlcmARpePLkXtwyqVAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.4tknXlcmARpePLkXtwyqVAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+      <img src="https://th.bing.com/th/id/OIP.EZ63KDuQjhQa287GOXZYbAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+      <img src="https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.EZ63KDuQjhQa287GOXZYbAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.4tknXlcmARpePLkXtwyqVAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.4tknXlcmARpePLkXtwyqVAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+      <img src="https://th.bing.com/th/id/OIP.EZ63KDuQjhQa287GOXZYbAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+      <img src="https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.EZ63KDuQjhQa287GOXZYbAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.4tknXlcmARpePLkXtwyqVAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.4tknXlcmARpePLkXtwyqVAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+      <img src="https://th.bing.com/th/id/OIP.EZ63KDuQjhQa287GOXZYbAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+      <img src="https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.EZ63KDuQjhQa287GOXZYbAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.4tknXlcmARpePLkXtwyqVAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+        <img src="https://th.bing.com/th/id/OIP.4tknXlcmARpePLkXtwyqVAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+      <img src="https://th.bing.com/th/id/OIP.EZ63KDuQjhQa287GOXZYbAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Placeholder" />
+      </div>
+      <div className="square">
+      <img src="https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png" alt="Placeholder" />
+      </div>
     </div>
   );
 };
